@@ -204,6 +204,49 @@ namespace Basics
                     }
                 }
             }*/
+
+            /*double x = 1234.7;
+            int a;
+            a = Convert.ToInt32(x);
+            Console.WriteLine(a);*/
+
+            /*string firstNumber = "49";
+            int converted = Int32.Parse(firstNumber);
+            Console.WriteLine(converted + 1);*/
+
+            /*string firstNumber = "49";
+            string secondNumber = "51";
+            int sum = int.Parse(firstNumber) + int.Parse(secondNumber);
+            Console.WriteLine(sum + " " + sum.GetType());*/
+
+            /*float gotgatan = 1.6f;
+            int hornsgatan = 2;
+            float sum = hornsgatan + gotgatan;
+            Console.WriteLine($"Götgatan (antal km) + Hornsgatan (antal km) = {sum}");*/
+
+            /*Console.WriteLine(
+                "<!DOCTYPE html>\n" +
+                "<html>\n" +
+                "<body\n>" +
+                "<h1>Välkomna!</h1>\n" +
+                "<p>Kurs om C#</p>\n" +
+                "<p>Kurs om Databaser</p>\n" +
+                "<p>Kurs om Webbutveckling</p>\n" +
+                "<p>Kurs om Clean code</p>\n" +
+                "</body>\n" +
+                "</html>"
+           );*/
+
+            string[,] personer = { { "Joakim", "37", "Student" }, { "Joline", "3", "Förskola" }, { "Oliver", "0.2", "Hemma" } };
+            for(int i = 0; i < personer.GetLength(0); i++)
+            {
+                Console.WriteLine($"Person {i + 1}");
+                for(int j = 0; j < personer.GetLength(1); j++)
+                {
+                    Console.WriteLine(personer[i,j]);
+                }
+                Console.WriteLine("\n");
+            }
         }
     }
 }
