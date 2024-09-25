@@ -1,2 +1,2 @@
 # Basics
-Basics - Code exercises
+Basics - Code Exercises
